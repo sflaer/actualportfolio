@@ -1,0 +1,1355 @@
+{
+  "version": "2.22",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ztM04",
+      "x": 0,
+      "y": 0,
+      "name": "Сергей Нохрин · Portfolio exploration",
+      "clip": true,
+      "width": 1440,
+      "height": 5350,
+      "fill": "$paper",
+      "layout": "vertical",
+      "padding": [
+        0,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "s6kgAx",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 100,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "D0qC8t",
+              "name": "Name",
+              "fill": "$ink",
+              "content": "Сергей Нохрин",
+              "fontFamily": "$font",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "l1pzd",
+              "name": "Navigation links",
+              "fill": "$ink",
+              "content": "Работы          AI-практика          Обо мне          Написать ↗",
+              "fontFamily": "$font",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FYMI7",
+          "name": "Hero · badge on a lanyard",
+          "width": "fill_container",
+          "height": 680,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nQQCC",
+              "x": 0,
+              "y": 91,
+              "name": "Introduction",
+              "enabled": false,
+              "width": 800,
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SXJb9",
+                  "name": "Role",
+                  "fill": "$muted",
+                  "content": "ПРОДУКТОВЫЙ ДИЗАЙНЕР / 5+ ЛЕТ ОПЫТА",
+                  "fontFamily": "$font",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "S9O4dM",
+                  "name": "Main heading",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Сложные продукты.\nПонятные\nинтерфейсы.",
+                  "lineHeight": 1.04,
+                  "fontFamily": "$font",
+                  "fontSize": 78,
+                  "fontWeight": "500",
+                  "letterSpacing": -4
+                },
+                {
+                  "type": "text",
+                  "id": "jyP3C",
+                  "name": "Positioning",
+                  "fill": "$muted",
+                  "content": "Проектирую рабочие инструменты и дизайн-системы.\nOzon Банк · 1С · ToYou · Growth.pet · Salebot",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DfxWe",
+              "name": "Interactive ID badge",
+              "width": 350,
+              "height": 620,
+              "layout": "vertical",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "UNHnW",
+                  "name": "Lanyard",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#444448",
+                        "position": 0
+                      },
+                      {
+                        "color": "#171718",
+                        "position": 0.25
+                      },
+                      {
+                        "color": "#313133",
+                        "position": 0.75
+                      },
+                      {
+                        "color": "#080809",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "width": 12,
+                  "height": 110
+                },
+                {
+                  "type": "frame",
+                  "id": "RsVmM",
+                  "name": "Metal lanyard clasp",
+                  "width": 30,
+                  "height": 16,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#303232",
+                        "position": 0
+                      },
+                      {
+                        "color": "#B6B7B8",
+                        "position": 0.5
+                      },
+                      {
+                        "color": "#353738",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": [
+                    1,
+                    1,
+                    5,
+                    5
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K18ls3",
+                  "name": "Sergey identity card",
+                  "width": 350,
+                  "height": 465,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/redesign/badge-pattern.png",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": 30,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000070",
+                    "offset": {
+                      "x": 0,
+                      "y": 16
+                    },
+                    "blur": 35
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "CdVTR",
+                      "x": 131,
+                      "y": 28,
+                      "name": "Badge horizontal slot",
+                      "fill": "#C3C3C6",
+                      "width": 88,
+                      "height": 7
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "pCIIp",
+                      "x": 171,
+                      "y": 14,
+                      "name": "Badge metal tongue",
+                      "fill": "#B6B7B8",
+                      "width": 8,
+                      "height": 19
+                    },
+                    {
+                      "type": "text",
+                      "id": "fRHhL",
+                      "x": 0,
+                      "y": 83,
+                      "name": "Sergey name",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": 350,
+                      "content": "Сергей Нохрин",
+                      "textAlign": "center",
+                      "fontFamily": "$font",
+                      "fontSize": 25,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NZZKn",
+                      "x": 0,
+                      "y": 117,
+                      "name": "Sergey role",
+                      "fill": "#B4B8B8",
+                      "textGrowth": "fixed-width",
+                      "width": 350,
+                      "content": "Product Designer",
+                      "textAlign": "center",
+                      "fontFamily": "$font",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 28,
+                      "id": "ysLpP",
+                      "x": 75,
+                      "y": 153,
+                      "name": "Framed portrait",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/avatar.png",
+                        "mode": "cover"
+                      },
+                      "width": 200,
+                      "height": 200,
+                      "stroke": "#979C9C",
+                      "strokeWidth": 5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nWc5x",
+          "name": "Hero whitespace",
+          "width": "fill_container",
+          "height": 48
+        },
+        {
+          "type": "frame",
+          "id": "UW1gW",
+          "name": "Work header",
+          "width": "fill_container",
+          "height": 86,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "rORl2",
+              "name": "Selected work",
+              "fill": "$ink",
+              "content": "Избранные работы",
+              "fontFamily": "$font",
+              "fontSize": 36,
+              "fontWeight": "500",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "Lh0KJ",
+              "name": "Work caption",
+              "fill": "$muted",
+              "content": "Продуктовый дизайн, исследования и системы",
+              "fontFamily": "$font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VKMP4",
+          "name": "Selected work gallery",
+          "width": "fill_container",
+          "height": 2455,
+          "layout": "vertical",
+          "gap": 56,
+          "children": [
+            {
+              "type": "frame",
+              "id": "morT9",
+              "name": "Salebot project",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k00GG",
+                  "name": "Salebot interface and glass metric",
+                  "width": "fill_container",
+                  "height": 570,
+                  "gap": 28,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "x4fKMb",
+                      "name": "Salebot barrel-scroll surface",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 570,
+                      "fill": "#252C3B",
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "padding": 40,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 10,
+                          "id": "kvZ9v",
+                          "name": "Salebot interface",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/redesign/case1screen2.webp",
+                            "mode": "contain"
+                          },
+                          "width": "fill_container",
+                          "height": "fill_container"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KuWwY",
+                      "name": "Salebot glass result card",
+                      "clip": true,
+                      "width": 280,
+                      "height": 350,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#2B2B2E",
+                            "position": 0
+                          },
+                          {
+                            "color": "#111113",
+                            "position": 0.2
+                          },
+                          {
+                            "color": "#101113",
+                            "position": 0.65
+                          },
+                          {
+                            "color": "#258C7C",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 53,
+                      "stroke": "#FFFFFF25",
+                      "strokeWidth": 1,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "inner",
+                        "color": "#FFFFFF30",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 3
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FyPEX",
+                          "x": 26,
+                          "y": 34,
+                          "name": "Metric name",
+                          "fill": "#BABAC1",
+                          "content": "Нажатий без изменений",
+                          "fontFamily": "$font",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LZ3nR",
+                          "x": 26,
+                          "y": 67,
+                          "name": "Metric minus 41 percent",
+                          "fill": "#F5F5F7",
+                          "content": "−41%",
+                          "fontFamily": "$font",
+                          "fontSize": 61,
+                          "fontWeight": "500",
+                          "letterSpacing": -4
+                        },
+                        {
+                          "type": "path",
+                          "id": "FHHDo",
+                          "x": 26,
+                          "y": 157,
+                          "name": "Descending improvement curve",
+                          "geometry": "M5 24c25 0 23 32 53 26s36-15 57 22 38-10 58 29 38-2 62 21",
+                          "viewBox": [
+                            0,
+                            0,
+                            240,
+                            150
+                          ],
+                          "width": 228,
+                          "height": 130,
+                          "stroke": "#67F5D0",
+                          "strokeWidth": 3,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#67F5D0B3",
+                            "blur": 8
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "BVvZZ",
+                          "x": 26,
+                          "y": 316,
+                          "name": "Result source caption",
+                          "fill": "#A1B8B2",
+                          "content": "Salebot · Результат редизайна",
+                          "fontFamily": "$font",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E7yWDo",
+                  "name": "Salebot caption",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YIiLu",
+                      "name": "Salebot title",
+                      "fill": "$ink",
+                      "content": "Salebot",
+                      "fontFamily": "$font",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pky10",
+                      "name": "Salebot result",
+                      "fill": "$muted",
+                      "content": "Конструктор чат-ботов · −41% нажатий без изменений",
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RrxUS",
+              "name": "Growth.pet project",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NJXqe",
+                  "name": "Growth.pet barrel-scroll surface",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 570,
+                  "fill": "#242333",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 10,
+                      "id": "t1djI",
+                      "name": "Growth.pet interface",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/redesign/case4screen1.webp",
+                        "mode": "contain"
+                      },
+                      "width": "fill_container",
+                      "height": "fill_container"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v5DOE",
+                  "name": "Growth.pet caption",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OBs7q",
+                      "name": "Growth.pet title",
+                      "fill": "$ink",
+                      "content": "Growth.pet",
+                      "fontFamily": "$font",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jkvgc",
+                      "name": "Growth.pet result",
+                      "fill": "$muted",
+                      "content": "Переписка и карточка клиента в одном рабочем пространстве",
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e21fNq",
+              "name": "All remaining case studies",
+              "width": "fill_container",
+              "height": 1099,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "O1KRA",
+                  "name": "Case row",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wUS00",
+                      "name": "ToYou full case",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 18,
+                          "id": "lrGyW",
+                          "name": "ToYou original case cover",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/case2.png",
+                            "mode": "cover"
+                          },
+                          "width": "fill_container",
+                          "height": 300
+                        },
+                        {
+                          "type": "text",
+                          "id": "IkBZv",
+                          "name": "ToYou case title",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "ToYou · Исследование техподдержки через веб-камеры",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "V2XFk",
+                      "name": "1С full case",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 18,
+                          "id": "QNxvp",
+                          "name": "1С original case cover",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/case5.png",
+                            "mode": "cover"
+                          },
+                          "width": "fill_container",
+                          "height": 300
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZyNSd",
+                          "name": "1С case title",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "1С · Две дизайн-системы и 30 лет легаси",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RGk7R",
+                  "name": "Case row",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UxkxP",
+                      "name": "Ozon Bank full case",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 18,
+                          "id": "wzrym",
+                          "name": "Ozon Bank original case cover",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/case7.png",
+                            "mode": "cover"
+                          },
+                          "width": "fill_container",
+                          "height": 300
+                        },
+                        {
+                          "type": "text",
+                          "id": "djJeH",
+                          "name": "Ozon Bank case title",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ozon Bank · Меняя отношение дизайнеров",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l7eI0",
+                      "name": "ToYou full case",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 18,
+                          "id": "jHNpz",
+                          "name": "ToYou original case cover",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/case4.png",
+                            "mode": "cover"
+                          },
+                          "width": "fill_container",
+                          "height": 300
+                        },
+                        {
+                          "type": "text",
+                          "id": "GNnsp",
+                          "name": "ToYou case title",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "ToYou · Солнце и интерфейс за пределами экрана",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bSzSc",
+                  "name": "Case row",
+                  "width": "fill_container",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SHDar",
+                      "name": "Growth.pet full case",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 18,
+                          "id": "mNjMh",
+                          "name": "Growth.pet original case cover",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/case6.png",
+                            "mode": "cover"
+                          },
+                          "width": "fill_container",
+                          "height": 300
+                        },
+                        {
+                          "type": "text",
+                          "id": "eWukP",
+                          "name": "Growth.pet case title",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Growth.pet · Расписание и ограничения записи",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A7HA6",
+          "name": "Restored original visual carousel",
+          "width": "fill_container",
+          "height": 447,
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            80,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "IwM3P",
+              "name": "Carousel heading",
+              "fill": "$ink",
+              "content": "Ещё немного визуала",
+              "fontFamily": "$font",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Il1LL",
+              "name": "Original moving interface strip",
+              "clip": true,
+              "width": "fill_container",
+              "height": 220,
+              "gap": 18,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 14,
+                  "id": "LaKHN",
+                  "name": "Original bento image 1",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/bento/1.png",
+                    "mode": "cover"
+                  },
+                  "width": "fill_container",
+                  "height": 210
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 14,
+                  "id": "m341X",
+                  "name": "Original bento image 2",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/bento/2.png",
+                    "mode": "cover"
+                  },
+                  "width": "fill_container",
+                  "height": 210
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 14,
+                  "id": "OKxZZ",
+                  "name": "Original bento image 3",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/bento/3.png",
+                    "mode": "cover"
+                  },
+                  "width": "fill_container",
+                  "height": 210
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 14,
+                  "id": "V3DZQf",
+                  "name": "Original bento image 4",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/bento/4.png",
+                    "mode": "cover"
+                  },
+                  "width": "fill_container",
+                  "height": 210
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z0ZTFb",
+          "name": "Spacing before AI",
+          "width": "fill_container",
+          "height": 110
+        },
+        {
+          "type": "frame",
+          "id": "uHj8V",
+          "name": "AI practice · three placeholders and counter",
+          "width": "fill_container",
+          "height": 1100,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#304BD9",
+                "position": 0
+              },
+              {
+                "color": "#111528",
+                "position": 0.62
+              },
+              {
+                "color": "#08090D",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 28,
+          "layout": "vertical",
+          "gap": 54,
+          "padding": 64,
+          "children": [
+            {
+              "type": "text",
+              "id": "J9JxoK",
+              "name": "AI heading",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "И ещё много\nвсего интересного.",
+              "lineHeight": 1.05,
+              "textAlign": "center",
+              "fontFamily": "$font",
+              "fontSize": 58,
+              "fontWeight": "500",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "Cnz3f",
+              "name": "AI subtitle",
+              "fill": "#C1C7E6",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AI-проекты, эксперименты и новые инструменты в моей практике.",
+              "textAlign": "center",
+              "fontFamily": "$font",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "gwiCD",
+              "name": "Tool orbit and counter",
+              "width": "fill_container",
+              "height": 400,
+              "gap": 70,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NSy2W",
+                  "name": "Four tool orbit",
+                  "width": 720,
+                  "height": 400,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VENNw",
+                      "x": 170,
+                      "y": 20,
+                      "name": "DeepSeek Harness tool card",
+                      "width": 140,
+                      "height": 140,
+                      "fill": "#F6F6F5",
+                      "cornerRadius": 35,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "lqccC",
+                          "name": "DeepSeek logo",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/redesign/deepseek.png",
+                            "mode": "contain"
+                          },
+                          "width": 70,
+                          "height": 60
+                        },
+                        {
+                          "type": "text",
+                          "id": "oErXy",
+                          "name": "DeepSeek Harness label",
+                          "fill": "#171717",
+                          "content": "DeepSeek Harness",
+                          "fontFamily": "$font",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nT24h",
+                      "x": 385,
+                      "y": 0,
+                      "name": "Codex tool card",
+                      "width": 140,
+                      "height": 140,
+                      "fill": "#F6F6F5",
+                      "cornerRadius": 35,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "kSFDe",
+                          "name": "Codex logo",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/redesign/codex.png",
+                            "mode": "contain"
+                          },
+                          "width": 65,
+                          "height": 65
+                        },
+                        {
+                          "type": "text",
+                          "id": "khuph",
+                          "name": "Codex label",
+                          "fill": "#171717",
+                          "content": "Codex",
+                          "fontFamily": "$font",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sj6hp",
+                      "x": 160,
+                      "y": 200,
+                      "name": "Figma tool card",
+                      "width": 140,
+                      "height": 140,
+                      "fill": "#F6F6F5",
+                      "cornerRadius": 35,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "H9KHi",
+                          "name": "Figma logo",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/redesign/figma.png",
+                            "mode": "contain"
+                          },
+                          "width": 45,
+                          "height": 65
+                        },
+                        {
+                          "type": "text",
+                          "id": "i4bXK",
+                          "name": "Figma label",
+                          "fill": "#171717",
+                          "content": "Figma",
+                          "fontFamily": "$font",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rFUiW",
+                      "x": 390,
+                      "y": 190,
+                      "name": "pen.dev tool card",
+                      "width": 140,
+                      "height": 140,
+                      "fill": "#F6F6F5",
+                      "cornerRadius": 35,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "Pm9g8",
+                          "name": "pen.dev logo",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/redesign/pen-dev.png",
+                            "mode": "contain"
+                          },
+                          "width": 65,
+                          "height": 65
+                        },
+                        {
+                          "type": "text",
+                          "id": "z1hge0",
+                          "name": "pen.dev label",
+                          "fill": "#171717",
+                          "content": "pen.dev",
+                          "fontFamily": "$font",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nBIFl",
+                  "name": "Number drop 13",
+                  "width": 260,
+                  "height": 280,
+                  "layout": "vertical",
+                  "gap": 15,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V7fzP7",
+                      "name": "Final counter value",
+                      "fill": "#FFFFFF",
+                      "content": "13",
+                      "fontFamily": "$font",
+                      "fontSize": 145,
+                      "fontWeight": "normal",
+                      "letterSpacing": -8
+                    },
+                    {
+                      "type": "text",
+                      "id": "qHyCA",
+                      "name": "Counter caption",
+                      "fill": "#B7BBCF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Столько проектов на WebCodel за последние два месяца",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "P1k6A",
+              "name": "Three AI project placeholders",
+              "width": "fill_container",
+              "height": 190,
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lOhHx",
+                  "name": "AI project 1",
+                  "width": 384,
+                  "height": 190,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 18,
+                  "stroke": "#FFFFFF15",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 85,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oGg65",
+                      "name": "Project 1 index",
+                      "fill": "#A1A1AA",
+                      "content": "AI / 01",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M5VPZ",
+                      "name": "Project 1 placeholder",
+                      "fill": "#F5F5F7",
+                      "content": "Скоро расскажу      +",
+                      "fontFamily": "$font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "acEFE",
+                  "name": "AI project 2",
+                  "width": 384,
+                  "height": 190,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 18,
+                  "stroke": "#FFFFFF15",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 85,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PvXQi",
+                      "name": "Project 2 index",
+                      "fill": "#A1A1AA",
+                      "content": "AI / 02",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VQsbN",
+                      "name": "Project 2 placeholder",
+                      "fill": "#F5F5F7",
+                      "content": "Скоро расскажу      +",
+                      "fontFamily": "$font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MG0tj",
+                  "name": "AI project 3",
+                  "width": 384,
+                  "height": 190,
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 18,
+                  "stroke": "#FFFFFF15",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 85,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xWkH6",
+                      "name": "Project 3 index",
+                      "fill": "#A1A1AA",
+                      "content": "AI / 03",
+                      "fontFamily": "$font",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RNcNJ",
+                      "name": "Project 3 placeholder",
+                      "fill": "#F5F5F7",
+                      "content": "Скоро расскажу      +",
+                      "fontFamily": "$font",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "L9bPEb",
+          "name": "Bottom spacing",
+          "width": "fill_container",
+          "height": 100
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "paper": {
+      "type": "color",
+      "value": "#101012"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#F5F5F7"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#A1A1AA"
+    },
+    "blue": {
+      "type": "color",
+      "value": "#254DF0"
+    },
+    "line": {
+      "type": "color",
+      "value": "#303035"
+    },
+    "font": {
+      "type": "string",
+      "value": "Inter"
+    }
+  },
+  "fileToken": "20bb8211-6c1c-415a-a86e-1a1615f2b1b0"
+}

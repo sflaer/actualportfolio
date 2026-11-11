@@ -1,0 +1,356 @@
+[
+  {
+    "src": "images/ai-generations/dota-stamps/accidental-refresh.png",
+    "left": 47,
+    "right": 1035,
+    "width": 1086,
+    "title": "СЛУЧАЙНО РЕФРЕШНУЛ",
+    "description": "Первую чёрную дыру никто не заметил."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/ale-pikay.png",
+    "left": 59,
+    "right": 1032,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/apm.png",
+    "left": 43,
+    "right": 1042,
+    "width": 1086,
+    "title": "300 APM, 0 IMPACT",
+    "description": "Много кнопок. Мало смысла."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/basher-17.png",
+    "left": 52,
+    "right": 1036,
+    "width": 1086,
+    "title": "БАШЕР НА 17",
+    "description": "Хроносфера есть. Урона нет."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/best-player-month.png",
+    "left": 64,
+    "right": 1024,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/bipolar.png",
+    "left": 87,
+    "right": 1002,
+    "width": 1086,
+    "title": "БИПОЛЯРКА ВОЛОДИ МОЛОДЦА",
+    "description": "Две головы. Один диагноз."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/bkb-posidit.png",
+    "left": 53,
+    "right": 1034,
+    "width": 1086,
+    "title": "БЕЗ БКБ",
+    "description": "Теперь твой ход. Шутка."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/bounty-hunter.png",
+    "left": 46,
+    "right": 1039,
+    "width": 1086,
+    "title": "БАУНТИ ХААААААНТЕР",
+    "description": "Виталик, успокойся."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/buy-wards.png",
+    "left": 73,
+    "right": 1009,
+    "width": 1086,
+    "title": "ВАРДЫ КУПИ",
+    "description": "Ты здесь не для удовольствия."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/captain-month.png",
+    "left": 29,
+    "right": 1056,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/circus-left.png",
+    "left": 27,
+    "right": 1070,
+    "width": 1086,
+    "title": "ЦИРК УЕХАЛ",
+    "description": "Клоуны остались."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/family-problems.png",
+    "left": 53,
+    "right": 1036,
+    "width": 1086,
+    "title": "СЕМЕЙНЫЕ ПРОБЛЕМЫ",
+    "description": "Медведь играет лучше хозяина."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/farmlings.png",
+    "left": 52,
+    "right": 1033,
+    "width": 1086,
+    "title": "ФАААААРМЛИНГИ",
+    "description": "Команда дерётся. Плантация работает."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/first-and-third.png",
+    "left": 79,
+    "right": 1019,
+    "width": 1086,
+    "title": "ПЕРВЫЙ И ТРЕТИЙ, БЛЯТЬ",
+    "description": "Инструкция была предельно понятной."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/fishman-mid.png",
+    "left": 40,
+    "right": 1048,
+    "width": 1086,
+    "title": "ВСТАНЬ МИД, ФИШМАН",
+    "description": "Рождённый саппортом. Призванный на мид."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/five-rapiers.png",
+    "left": 23,
+    "right": 1064,
+    "width": 1086,
+    "title": "ПЯТЬ РАПИР",
+    "description": "Либо ваншот, либо репорт."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/gl-hf.png",
+    "left": 32,
+    "right": 1055,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/going-home.png",
+    "left": 49,
+    "right": 1037,
+    "width": 1086,
+    "title": "Я НА БАЗУ",
+    "description": "Дома лучше."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/honest-hero.png",
+    "left": 50,
+    "right": 1034,
+    "width": 1086,
+    "title": "ЧЕСТНЫЙ ГЕРОЙ",
+    "description": "Нажал одну кнопку. Переиграл."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/immobile-five.png",
+    "left": 31,
+    "right": 1059,
+    "width": 1086,
+    "title": "ПЯТЬ ИНВАЛИДОВ",
+    "description": "Главное — держаться вместе. Выбора нет."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/jungle-zero.png",
+    "left": 0,
+    "right": 1059,
+    "width": 1086,
+    "title": "ЛЕС С НУЛЕВОЙ",
+    "description": "Не мешайте, я работаю."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/krysa.png",
+    "left": 66,
+    "right": 1020,
+    "width": 1086,
+    "title": "КРЫСА",
+    "description": "Пока вы играли в Доту, он играл в PvE."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/kukareku.png",
+    "left": 60,
+    "right": 1022,
+    "width": 1086,
+    "title": "КУКАРЕКУ",
+    "description": "Тинкер? Всё понятно."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/last-requiem.png",
+    "left": 45,
+    "right": 1041,
+    "width": 1086,
+    "title": "ПОСЛЕДНИЙ РЕКВИЕМ",
+    "description": "Завтра точно научусь попадать койлами."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/late-game.png",
+    "left": 33,
+    "right": 1053,
+    "width": 1086,
+    "title": "МЫ В ЛЕЙТЕ",
+    "description": "Главное — дожить до 60-й."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/lichnaya-nepriyazn.png",
+    "left": 69,
+    "right": 1021,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/mana.png",
+    "left": 62,
+    "right": 1022,
+    "width": 1086,
+    "title": "МАНА ЕСТЬ?",
+    "description": "Магию ненавидит. Фарм любит."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/mid-or-feed.png",
+    "left": 58,
+    "right": 1025,
+    "width": 1086,
+    "title": "МИД ИЛИ ФИД",
+    "description": "Третьего не дано."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/mne-pohuy.png",
+    "left": 48,
+    "right": 1040,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/never-miss.png",
+    "left": 29,
+    "right": 1057,
+    "width": 1086,
+    "title": "Я НЕ ПРОМАХИВАЮСЬ",
+    "description": "Стрела ушла в следующую игру."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/not-my-month.png",
+    "left": 53,
+    "right": 1034,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/press-button.png",
+    "left": 36,
+    "right": 1043,
+    "width": 1086,
+    "title": "НАЖМИ КНОПКУ",
+    "description": "Не ту, блять."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/pro-scene.png",
+    "left": 79,
+    "right": 1008,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/procurement.png",
+    "left": 41,
+    "right": 1049,
+    "width": 1086,
+    "title": "КОНТРОЛЬНАЯ ЗАКУПКА",
+    "description": "У него своя экономика."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/pudge-forest.png",
+    "left": 34,
+    "right": 1051,
+    "width": 1086,
+    "title": "ПУДЖ В ЛЕСУ",
+    "description": "Мама сказала, что я особенный."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/question-mark.png",
+    "left": 33,
+    "right": 1052,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/safe-house.png",
+    "left": 36,
+    "right": 1048,
+    "width": 1086,
+    "title": "Я В ДОМЕ",
+    "description": "Поймай меня, если сможешь."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/sha-obdumayu.png",
+    "left": 50,
+    "right": 1038,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/suicide-squad.png",
+    "left": 103,
+    "right": 987,
+    "width": 1086,
+    "title": "СУИЦИДАЛЬНЫЙ ОТРЯД",
+    "description": "Играть должны страдать все."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/syrovar.png",
+    "left": 51,
+    "right": 1034,
+    "width": 1086,
+    "title": "СЫРОВАР",
+    "description": "Честная Дота для слабых."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/twelve-tango.png",
+    "left": 76,
+    "right": 1009,
+    "width": 1086,
+    "title": "12 ТАНГО",
+    "description": "Сбалансированное питание — залог победы."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/two-heroes.png",
+    "left": 67,
+    "right": 1018,
+    "width": 1086,
+    "title": "ДВА ГЕРОЯ, ОДИН МОЗГ",
+    "description": "Один фидит. Второй помогает."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/vse-po-planu.png",
+    "left": 65,
+    "right": 1020,
+    "width": 1086
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/watcherCuckold.png",
+    "left": 85,
+    "right": 998,
+    "width": 1086,
+    "title": "КУКОЛД",
+    "description": "Любит смотреть, как играют другие."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/where-supports.png",
+    "left": 44,
+    "right": 1041,
+    "width": 1086,
+    "title": "ГДЕ САППОРТЫ?",
+    "description": "Варды купит самый слабый."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/zoo.png",
+    "left": 14,
+    "right": 1072,
+    "width": 1086,
+    "title": "ЗООПАРК",
+    "description": "Передвижной филиал Московского зоопарка."
+  },
+  {
+    "src": "images/ai-generations/dota-stamps/zooshiza.png",
+    "left": 104,
+    "right": 984,
+    "width": 1086,
+    "title": "ЗООШИЗА",
+    "description": "Одного героя ему мало."
+  }
+]

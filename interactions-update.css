@@ -1,0 +1,49 @@
+/* Interaction and content polish for the portfolio redesign. */
+.ai-intro p{color:#e2e2e9;line-height:1.65;max-width:850px;margin-inline:auto}
+.recommendation-card{border:0!important}
+.recommendation-toggle{border:0;display:inline-flex;align-items:center;gap:10px}
+dialog,.dialog-top,.dialog-nav,.dialog-nav button{border:0}
+.dialog-top{gap:24px;padding:30px 42px 24px;align-items:flex-start}
+.dialog-top #dialogTitle{font-size:clamp(24px,3vw,36px);letter-spacing:-.035em;line-height:1.2;margin:0;padding-top:3px}
+.dialog-close{flex-shrink:0;border:0}
+.dialog-body{padding-top:8px}
+.dialog-nav button{background:#ffffff08}
+.github-button{display:inline-flex;padding:13px 23px;border-radius:999px;background:#fff;color:#111!important;font-weight:550;text-decoration:none!important;margin-top:12px}
+.github-button:hover{background:#dfdfdf}
+.badge-swing{animation:none!important;transform:none;rotate:0deg;transition:translate .8s cubic-bezier(.2,.65,.3,1),rotate .8s cubic-bezier(.2,.65,.3,1);will-change:translate,rotate}
+.id-badge{mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 430 571'%3E%3Cpath fill='white' fill-rule='evenodd' d='M0 0H430V571H0Z M165 34H265A4 4 0 0 1 265 42H165A4 4 0 0 1 165 34Z'/%3E%3C/svg%3E");mask-size:100% 100%;mask-repeat:no-repeat}
+.badge-slot,.badge-slot:before{background:transparent;box-shadow:none}
+.badge-slot:before{content:none}
+#toolOrbit{--rx:min(37cqw,310px);--ry:min(28cqw,210px);--tile:min(17cqw,108px);height:calc(2 * var(--ry) + var(--tile) + 42px);max-width:850px;margin:auto}
+.orbit-area{height:auto;min-height:560px}
+#toolOrbit .tool-tile{border:0}
+#toolOrbit .tool-tile.own-skills{background:#29242e;--closed-r:24deg}
+#toolOrbit .tool-tile.krea{background:#f1f1f1;--closed-r:-20deg}
+#toolOrbit .own-skills span{color:#f8f3ff}
+#toolOrbit .tool-tile .tool-glyph{font-size:clamp(22px,5cqw,45px);line-height:1;font-weight:550;letter-spacing:-.08em;height:46%;display:flex;align-items:center}
+.visual-section{padding-bottom:80px;perspective:1200px}
+.visual-carousel{overflow:visible;transform:perspective(1400px) rotateY(16deg) rotateX(7deg) rotateZ(-7deg);transform-origin:50% 50%;margin:85px -8% 100px;width:116%;padding:20px 0 30px;}
+.visual-track{gap:24px}
+.visual-tile{height:330px;width:390px;border-radius:4px}
+.visual-tile img{object-fit:cover}
+@media(max-width:700px){
+ .dialog-top{padding:22px;gap:14px}.dialog-top #dialogTitle{font-size:24px}
+ .orbit-area{min-height:320px}#toolOrbit{--rx:35cqw;--ry:31cqw;--tile:17cqw}
+ #toolOrbit .tool-tile span{font-size:clamp(6px,1.6cqw,10px)}
+ .visual-carousel{margin-block:48px 65px;transform:perspective(1000px) rotateY(13deg) rotateX(5deg) rotateZ(-7deg)}
+ .visual-tile{width:260px;height:240px}.visual-track{gap:14px}.visual-section{padding-bottom:35px}
+}
+@media(prefers-reduced-motion:reduce){.badge-swing{transition:none}.visual-carousel{transform:none;margin:30px 0;width:100%;overflow-x:auto}}
+#toolOrbit .tool-tile.figma img{filter:none;width:32%;height:46%;object-fit:contain}
+#toolOrbit .tool-tile.krea img{filter:none;width:46%;height:46%;object-fit:contain}
+/* Keep the continuously moving gallery on the compositor; avoid a filtered
+   offscreen surface around its large perspective projection. */
+.visual-section{contain:layout paint;isolation:isolate}
+.visual-carousel{filter:none!important;will-change:auto;backface-visibility:hidden}
+.visual-track{will-change:transform;backface-visibility:hidden;transform:translate3d(0,0,0)}
+.visual-tile{box-shadow:none;filter:none;flex-shrink:0}
+.visual-carousel:hover .visual-track{animation-play-state:running}
+.visual-carousel:focus-within .visual-track{animation-play-state:paused}
+@keyframes carousel-drift{from{transform:translate3d(0,0,0)}to{transform:translate3d(calc(-50% - 12px),0,0)}}
+@media(max-width:700px){@keyframes carousel-drift{from{transform:translate3d(0,0,0)}to{transform:translate3d(calc(-50% - 7px),0,0)}}}
+#toolOrbit .own-skills .tool-glyph{align-self:center;justify-content:center;width:100%;text-align:center;letter-spacing:0;}
