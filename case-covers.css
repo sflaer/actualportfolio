@@ -67,6 +67,8 @@ body:has(> .liquid-gradient-bg) { isolation: isolate; }
   --case-inset-shadow: inset 0 2px 3px #ffffff30,
     inset 0 -9px 30px color-mix(in srgb, var(--case-accent) 12%, transparent);
   --case-outer-shadow: 0 12px 45px #0006;
+  container-type: inline-size;
+  grid-template-columns: minmax(0, 1fr) clamp(170px, 27%, 280px);
   border-radius: 22px;
   box-shadow: var(--case-outer-shadow);
 }
@@ -77,11 +79,49 @@ body:has(> .liquid-gradient-bg) { isolation: isolate; }
 .feature-composition:has([data-case="5"]) { --case-accent: #7ee08c; }
 .feature-composition:has([data-case="6"]) { --case-accent: #77c8ff; }
 
-.feature-composition .metric-card {
+.project-gallery .feature-composition .metric-card {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding-block: clamp(16px, 3.3cqw, 34px) clamp(12px, 2.2cqw, 24px);
+  border-radius: 0 22px 22px 0;
   background: linear-gradient(160deg, #25272c, #111113 28%, #101113 66%, color-mix(in srgb, var(--case-accent) 19%, #101113));
   border-color: var(--case-border);
   box-shadow: var(--case-inset-shadow);
 }
+.feature-composition .metric-label,
+.feature-composition .metric-value {
+  margin-inline: clamp(14px, 2.5cqw, 26px);
+}
+.feature-composition .metric-label { font-size: clamp(12px, 1.5cqw, 15px); }
+.feature-composition .metric-value {
+  font-size: clamp(36px, 6.7cqw, 68px);
+  letter-spacing: -.06em;
+  margin-top: clamp(4px, 1cqw, 10px);
+}
+.feature-composition .metric-card > :is(.metric-chart, .metric-progress) {
+  min-height: 0;
+  height: 100%;
+  margin: 0;
+}
+.feature-composition .metric-card > .metric-progress {
+  width: 72%;
+  max-width: 175px;
+  justify-self: center;
+  z-index: 1;
+}
+.feature-composition .metric-smile {
+  fill: #131922;
+  stroke: #131922;
+}
+.feature-composition .metric-smile .metric-smile-disc {
+  fill: var(--case-accent);
+  stroke: none;
+  filter: drop-shadow(0 0 9px color-mix(in srgb, var(--case-accent) 45%, transparent));
+}
+.feature-composition .metric-card .metric-smile path { filter: none; }
 .feature-composition .case-cover::after {
   content: "";
   position: absolute;
@@ -110,8 +150,8 @@ body:has(> .liquid-gradient-bg) { isolation: isolate; }
 .project-gallery .feature-composition .project-art.case-cover {
   border-radius: 22px 0 0 22px;
 }
-.project-gallery .feature-composition .metric-card {
-  border-radius: 0 22px 22px 0;
+@media (width > 800px) {
+  .feature-composition .metric-card { contain: size; }
 }
 
 @media (max-width: 800px) {
@@ -122,6 +162,7 @@ body:has(> .liquid-gradient-bg) { isolation: isolate; }
   }
   .feature-composition .case-cover::after { border-right: 1px solid var(--case-border); }
   .project-gallery .feature-composition .metric-card {
+    grid-template-rows: auto auto clamp(90px, 25cqw, 150px);
     border-radius: 0 0 22px 22px;
     box-shadow: var(--case-inset-shadow), var(--case-outer-shadow);
   }

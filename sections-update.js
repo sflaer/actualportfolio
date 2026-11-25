@@ -41,7 +41,40 @@
 
     const reward = document.querySelector('.achievement-reward');
     const queue = [];
+    const storageKey = 'portfolio-achievements-v1';
     const unlocked = new Set();
+    const seenCases = new Set();
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey));
+      if (Array.isArray(saved?.unlocked)) {
+        saved.unlocked.filter(key => badges.has(key)).forEach(key => unlocked.add(key));
+      }
+      if (Array.isArray(saved?.seenCases)) {
+        saved.seenCases.filter(Number.isInteger).forEach(key => seenCases.add(key));
+      }
+    } catch {
+      // Achievements still work in memory when storage is unavailable.
+    }
+
+    function saveProgress() {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify({
+          unlocked: [...unlocked],
+          seenCases: [...seenCases]
+        }));
+      } catch {
+        // Storage may be disabled or full.
+      }
+    }
+
+    function revealBadge(key) {
+      const entry = badges.get(key);
+      entry.badge.classList.add('is-unlocked');
+      entry.badge.innerHTML = entry.art;
+      entry.hint.textContent = entry.name;
+      return entry;
+    }
+    unlocked.forEach(revealBadge);
     const confetti = '<svg class="achievement-confetti" viewBox="0 0 48 48" aria-hidden="true"><path stroke="#ffae65" d="M9 15l5 2m20 15 4 4M21 5l1 5"/><path stroke="#67f5d0" d="M35 9l-3 5M8 31l-4 3m20 4v5"/><path stroke="#ae9bff" d="M42 21l-5 1M14 39l2-4"/></svg>';
     function showReward() {
       const next = queue.shift();
@@ -59,17 +92,15 @@
     function unlock(key) {
       if (unlocked.has(key)) return;
       unlocked.add(key);
-      const entry = badges.get(key);
-      entry.badge.classList.add('is-unlocked');
-      entry.badge.innerHTML = entry.art;
-      entry.hint.textContent = entry.name;
-      queue.push(entry);
+      queue.push(revealBadge(key));
+      saveProgress();
       if (!reward.classList.contains('is-visible')) showReward();
     }
 
-    const seenCases = new Set();
     document.addEventListener('portfolio:case', event => {
+      if (seenCases.has(event.detail)) return;
       seenCases.add(event.detail);
+      saveProgress();
       unlock('first');
       const total = new Set(Array.from(document.querySelectorAll('#projectGallery [data-case]'), el => Number(el.dataset.case))).size;
       if (total && seenCases.size >= total) unlock('all');

@@ -43,9 +43,16 @@
 
 .hero .badge-rig {
   scale: 1.07;
-  translate: 0 -34px;
+  translate: 0 -28.5px;
   transform-origin: 50% 0;
 }
+@media (prefers-reduced-motion: no-preference) {
+  .hero .badge-rig { animation: badge-enter 1240ms var(--ease-out, ease-out); }
+}
+@keyframes badge-enter {
+  from { translate: 0 -110vh; }
+}
+
 .badge-socials {
   position: absolute;
   inset: auto 0 10%;
@@ -68,7 +75,7 @@
 .badge-socials a:hover { background: #ffffff1c; color: white; }
 .badge-socials svg { width: 20px; height: 20px; }
 @media (max-width: 700px) {
-  .hero .badge-rig { scale: 1; translate: 0 -22px; }
+  .hero .badge-rig { scale: 1; translate: 0 -18.5px; }
   :is(#work,#ai,#careers){scroll-margin-top:110px}
 }
 @media (min-width: 375px) and (max-width: 700px) {
